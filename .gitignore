@@ -1,0 +1,5 @@
+#ignora arquivo da database
+db.sqlite3
+
+#ignora arquivos do Jetbrains GoLand
+/.idea
