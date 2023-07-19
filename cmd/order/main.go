@@ -20,7 +20,7 @@ func main() {
 	usCase := usecase.NewCalculateFinalPrice(orderRepository)
 
 	input := usecase.OrderInput{
-		ID: "128",
+		ID: "129",
 		Price: 15.0,
 		Tax: 2.0,
 	}
