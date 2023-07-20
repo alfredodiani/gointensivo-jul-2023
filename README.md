@@ -21,5 +21,11 @@ CREATE TABLE orders (
 );
 ```
 
+To deploy use Docker:
 
-
+```
+docker build -t alfredodiani/gointensivo-jul-2023:latest .
+```
+```
+docker run -p 8888:8888 alfredodiani/gointensivo-jul-2023:latest
+```
